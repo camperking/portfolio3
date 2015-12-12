@@ -1,0 +1,146 @@
+.navbar {
+    color: white;
+    background-color: hsla(0, 0%, 0%, 0.3);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: black;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: black;
+}
+
+
+/*home*/
+.home {
+    background-image: url("../img/background/sail3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 950px;
+}
+
+.home-content {
+    font-family: 'Lato', sans-serif;
+    padding-top: 150px;
+    text-align: center;
+}
+
+.home-content h1 {
+    font-size: 7em;
+}
+
+.home-content h3 {
+    font-weight: bold;
+    margin-bottom: 350px;
+}
+
+li {
+    list-style: outside none none;
+}
+
+
+.home-link {
+    /*color: rgb(204, 204, 204);*/
+    color: white;
+    text-decoration: none;
+    /*border: 1px solid white;*/
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    background-color: hsla(0, 0%, 0%, 0.3);
+    border-radius: 1em;
+    box-shadow: 0 0 0.5em hsla(0, 0%, 0%, 0.1);
+    transition: all 0.2s ease-out;
+}
+
+/*.home-link:hover {
+    background-color: hsla(0, 0%, 0%, 0.5);
+    transition: all 0.2s ease-out;
+}*/
+
+/*portfolio*/
+.portfolio {
+    background-image: url("../img/background/sail2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    height: 950px;
+}
+
+.portfolio-content {
+    font-family: 'Lato', sans-serif;
+    padding-top: 60px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.portfolio-content h1 {
+    font-size: 7em;
+}
+
+.portfolio-content h3 {
+    font-weight: bold;
+}
+
+.portfolio .row {
+    margin-top: 50px;
+}
+
+.thumbnail {
+    background-color: hsla(0, 0%, 0%, 0.3);
+    border: none;
+}
+
+.caption {
+    height: 200px;
+}
+
+.caption > h3 {
+    color: white;
+}
+
+.caption > p {
+    color: white;
+    font-family: 'Open Sans', sans-serif
+}
+
+/*about*/
+.about {
+    background-image: url("../img/background/sail1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 950px;
+}
+
+.about-content {
+    font-family: 'Lato', sans-serif;
+    padding-top: 60px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.about-content h1 {
+    font-size: 7em;
+    color: white;
+}
+
+.about-content h3 {
+    font-weight: bold;
+}
