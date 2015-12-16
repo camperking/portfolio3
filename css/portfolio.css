@@ -140,14 +140,24 @@ li {
     margin-top: 100px;
     padding-top: 1em;
     padding-bottom: 1em;
-    background-color: hsla(0, 0%, 100%, 0.2);
-    border-radius: 1em;
+    /*background-color: hsla(0, 0%, 100%, 0.2);*/
+    /*border-radius: 1em;*/
     font-family: "Open Sans", sans-serif;
     font-size: 1.2em;
     color: white;
     text-align: left;
 }
 
+.about-me {
+  background-color: hsla(0, 0%, 100%, 0.2);
+  border-radius: 1em;
+}
+
 .about-image {
     border-radius: 50%;
+}
+
+.about-contact {
+    margin-top: 100px;
+    text-align: center;
 }
