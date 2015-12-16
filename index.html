@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Bootstrap 101 Template</title>
+        <title>xDevBox Portfolio</title>
 
         <link href='https://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
@@ -19,23 +19,30 @@
     <body>
         <!-- navbar -->
         <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
                     <a class="navbar-brand" href="#">xDevBox</a>
                 </div>
-                <ul class="nav navbar-nav navbar-right">
-                     <li><a href="#">Home</a></li>
-                     <li><a href="#">Portfolio</a></li>
-                     <li><a href="#">About</a></li>
-                </ul>
+                <div class="collapse navbar-collapse" id="navbar">
+                    <ul class="nav navbar-nav navbar-right">
+                         <li><a href="#home">Home</a></li>
+                         <li><a href="#portfolio">Portfolio</a></li>
+                         <li><a href="#about">About</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
 
         <!-- home -->
-        <div class="home">
+        <div id="home">
             <div class="home-content">
                 <h1>xDevBox</h1>
-                <h3>Modern Webdesign & Programming</h3>
+                <h3>Modern Webdesign &amp; Programming</h3>
                 <ul class="list-group">
                     <li>
                         <a href="https://github.com/camperking" class="home-link btn btn-default btn-lg">
@@ -52,32 +59,63 @@
         </div>
 
         <!-- portfolio -->
-        <div class="portfolio">
+        <div id="portfolio">
             <div class="portfolio-content">
                 <h1>Portfolio</h1>
                 <h3>Selected Works</h3>
-                <div class="portfolio-item">
-                    <h3><i class="fa fa-cog fa-fw"></i> Factorio Mod Manager</h3>
-                    <p>This is a mod manager for the game Factorio. Written in JavaScript with node-webkit and jQuery.</p>
-                    <p><a href="https://github.com/camperking/fmm">Code</a></p>
-                </div>
-                <div class="portfolio-item">
-                    <h3><i class="fa fa-calculator fa-fw"></i> JavaScript Calculator</h3>
-                    <p>HTML and JavaScript Calculator as an exercise for freeCodeCamp.</p>
-                    <p><a href="https://github.com/camperking/fcc-jscalc">Code</a> <a href="http://xdevbox.org/steffen/fcc-jscalc/">Live</a></p>
-                </div>
-                <div class="portfolio-item">
-                    <h3><i class="fa fa-clock-o fa-fw"></i> Pomodoro Timer</h3>
-                    <p>A timer for the Pomodoro time management technique.</p>
-                    <p><a href="https://github.com/camperking/fcc-pomodoro">Code</a> <a href="http://xdevbox.org/steffen/fcc-pomodoro/">Live</a></p>
+                <div class="row">
+                    <div class="col-sd-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="./img/portfolio/fmm.png">
+                            <div class="caption">
+                                <h3>Factorio Mod Manager</h3>
+                                <p>
+                                    This is a mod manager for the game Factorio. Written in Javascript with node-webkit and jQuery.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sd-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="./img/portfolio/jscalc.png">
+                            <div class="caption">
+                                <h3>Javascript Calculator</h3>
+                                <p>
+                                    HTML and JavaScript Calculator as an exercise for freeCodeCamp.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sd-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="./img/portfolio/pomodoro.png">
+                            <div class="caption">
+                                <h3>Pomodoro Timer</h3>
+                                <p>
+                                    A timer for the Pomodoro time management technique.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
         <!-- about -->
-        <div class="about">
+        <div id="about">
             <div class="about-content">
                 <h1>About</h1>
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="./img/steffen.png" class="about-image">
+                    </div>
+                    <div class="col-md-7">
+                    </p>My name is Steffen and I'm from Germany. I've learned mechatronics and worked the last decade in maintenance of industrial automation equipment and as a workshop foreman.</p>
+                    <p>Programming was always my hobby. I've started with HTML in 1998 and since then tried several languages like JavaScript, VisualBasic, JAVA and PHP.</p>
+                    <p>Now I'm refining and improving my JavaScript, HTML and CSS skills to find a job in the growing market of front and backend web development.</p>
+                    <p>My other hobbys are sailing and tinkering with electronics and 3D printers. I also have a radio amateur license.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </body>
